@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "concurrently \"ts-node src/server/index.ts\" \"webpack --watch\"",
-    "prod": "concurrently \"ts-node src/server/index.ts --host 0.0.0.0\" \"webpack --config webpack.config.prod.js\""
+  "start": "concurrently \"ts-node src/server/index.ts --host 0.0.0.0\" \"webpack --config webpack.config.prod.js\"",
+  "dev": "concurrently \"ts-node src/server/index.ts\" \"webpack --watch\""
   },
   "repository": {
     "type": "git",
