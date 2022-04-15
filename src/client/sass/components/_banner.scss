@@ -1,0 +1,30 @@
+.homepage-banner{
+    //height: 50vh;
+    padding: 1rem;
+    background-color: $color-bisque;
+    //clip-path: polygon(0 0, 100% 0, 100% 71%, 0% 100%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    .left{
+        h2{
+            @include animation(zoom-1, .5s);
+        }
+        h1{
+            @include animation(zoom-2, 1s);
+        }
+        a{
+            @include animation(zoom-3, 1.5s);
+        }
+    }
+    .right{
+        display: flex;
+        flex-direction: column;
+        img{
+            height: 20rem;
+            width: auto;
+        }
+    }
+    
+}

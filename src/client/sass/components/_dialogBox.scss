@@ -1,0 +1,15 @@
+.dialog-box{
+    .dialogBoxContentLoginSignup{
+        .login {
+            .after-login{
+                margin-top: 1rem;
+                .forgot-password-field{
+                    margin-top: 1rem;
+                    .label{
+                        color: $color-grey;
+                    }
+                }
+            }
+        }
+    }
+}

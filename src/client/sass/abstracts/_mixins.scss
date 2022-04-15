@@ -1,0 +1,17 @@
+@mixin animation($name, $delay){
+    animation: $name $delay;
+}
+
+@mixin media($size) {
+  @if $size == phone {
+    @media (max-width: 599px) { @content; }
+  } @else if $size == tab-port {
+    @media (max-width: 600px) { @content; }
+  } @else if $size == tab-land {
+    @media (max-width: 900px) { @content; }
+  } @else if $size == desktop {
+    @media (max-width: 1200px) { @content; }
+  } @else if $size == big-desktop{
+    @media (max-width: 1800px) { @content; }
+  }
+}

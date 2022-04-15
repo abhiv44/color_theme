@@ -1,0 +1,27 @@
+.card {
+    margin: 1rem;
+    .card-content-news-feed {
+    display: flex;
+    justify-content: flex-start;
+
+    .left {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    img {
+    height: 5rem;
+    }
+    }
+    .right{
+    width: 80%;
+    .subtype {
+    margin-right: .5rem;
+    }
+    }
+    }
+}
+
+.selectedCard {
+    margin: 1rem;
+    background-color: lightblue !important;
+}

@@ -1,0 +1,12 @@
+main{
+    min-height: $height-full-screen-viewport;
+}
+
+.notFound{
+display: flex;
+justify-content: center;
+align-items: center;
+img{
+height: 100vh;
+}
+}
